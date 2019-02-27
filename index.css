@@ -1,0 +1,17 @@
+header{
+  background-color:lightpink;
+  text-align:center;
+  font-size: 20px;
+  padding:2%;
+  color: black;
+  margin: 1%;
+  border: 2px solid black;
+  box-shadow: 3px 2px 2px black;
+}
+a img{
+  width: 5%;
+  display: block;
+  margin-left: auto;
+  background-color: lightpink;
+  border: 2px solid blue;
+}

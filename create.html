@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      Resume builder
+    </header>
+
+    <article>
+
+      <form>
+
+        <section>
+          <h2>career Objective</h2>
+          <select id="career">
+            <option>to become doctor</option>
+            <option>to become teacher</option>
+            <option>to become collector</option>
+            <option>to become comedian</option>
+          </select>
+        </section><br>
+
+           <div class="parent">
+
+          <section>
+            <h2>personal Information</h2>
+
+            <input type="text" id="name"placeholder="Name"><br>
+            <input type="text" id="email"placeholder="email"><br>
+            </section>
+          <section>
+            <h2>Graduation Details</h2>
+            <select id="group1">
+              <option select = "selected" disabled>select your graduation type</option>
+              <option>B.tech</option>
+              <option>B.e</option>
+              <option>b.sc</option>
+            </select><br>
+            <select id="branch1">
+              <option select="selected" disabled>select your branch</option>
+              <option>CSE</option>
+              <option>IT</option>
+              <option>EEE</option>
+              <option>MECH</option>
+              <option>CIVIL</option>
+            </select><br>
+          <input type="text"id="college1"placeholder="College Name"><br>
+                <input type="text"id="marks"placeholder="Percentage"><br>
+              </section>
+        </div>
+      </form>
+
+      <div class="parent">
+        <section>
+          <select id="group2">
+            <option select = "selected" disabled>select your degree</option>
+            <option>Intermediate</option>
+            <option>diploma</option>
+            <option>S.S.C</option>
+          </select><br>
+          <select id="branch2">
+          <option select="selected" disabled>select your group</option>
+          <option>MPC</option>
+          <option>BIPC</option>
+          <option>CEC</option>
+          <option>MEC</option>
+        </select><br>
+
+            <input type="text"id="college2"placeholder="College Name"><br>
+            <input type="text"id="marks2"placeholder="Percentage"><br>
+          </section>
+          <section>
+            <h2>SSC</h2>
+            <select id="group3">
+              <option select="selected" disabled>select your course</option>
+              <option>S.S.c</option>
+              <option>C.B.S.E</option>
+              <option>I.C.S.E</option>
+            </select><br>
+            <input type="text"id="school"placeholder="school Name"><br>
+            <input type="text"id="marks3"placeholder="Percentage"><br>
+        </section>
+</div>
+            <section>
+              <h2>technical skills</h2>
+        <p> note: skill must be comma separated</p>
+        <input type="text"id="tech"placeholder="technical skills"><br>
+</section>
+      </form>
+
+    </article>
+    <div style="text-align:center" class="parent">
+
+      <button type="button" onclick="addData()">submit</button>
+      </div>
+      <script type="text/javascript" src="main.js">
+
+      </script>
+
+  </body>
+</html>
